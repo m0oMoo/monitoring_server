@@ -1,0 +1,57 @@
+# Java + Spring Boot + Gradle + IntelliJ + MySQL 최적화 .gitignore
+
+# Java Class/Package
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# VM crash logs
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Logs
+logs/
+*.log
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MySQL
+*.sql
+*.dump
+
+# Environment
+.env
+*.env
+
+# Spring Boot
+application.yml
+application.properties
+
+# Test
+test-output/
+target/
+
+# Optional
+.vscode/
